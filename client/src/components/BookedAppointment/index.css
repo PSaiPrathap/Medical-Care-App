@@ -1,0 +1,62 @@
+.confirmationcontainer {
+    background-image: url("../Home/BackgroundHealthLogo.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.appointmentscon{
+    padding: 50px;
+    
+}
+
+.appointmentslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.appointmentcard{
+    border-radius: 20px;
+    padding: 30px;
+    height: 250px;
+    width: 650px;
+    margin: 10px;
+    background-color: #b7a9a7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointmentdetails {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.appointmentdetails p {
+    margin: 10px 0;
+}
+
+.deletebtn {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.deletebtn:hover {
+    background-color: #c0392b;
+}
